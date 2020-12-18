@@ -18,6 +18,7 @@ public class WelcomeServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		HttpSession session = request.getSession();
 		String name = (String)session.getAttribute("name");
+		out.println("<h2>Successful</h2>");
 		
 		out.println("<h1>Login successful " + name + "</h1>");
 	}
