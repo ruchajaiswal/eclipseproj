@@ -23,6 +23,7 @@ public class WelcomeServlet extends HttpServlet {
 		out.println("<h2>Successful</h2>");
 		out.println("<h3>Successful</h3>");
 		out.println("<h4>Successful</h4>");
+		out.println("<h6>Successful</h6>");
 	}
 //	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //		// TODO Auto-generated method stub
